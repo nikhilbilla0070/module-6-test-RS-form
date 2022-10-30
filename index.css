@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+.container{
+    position: relative;
+    top: 5rem;
+    width: 45%;
+    height: 90vh;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+.form{
+    text-align: left;
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.name-container{
+    width: 85%;
+    margin: auto;
+}
+.email-container{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.col-md-4{
+    height: 7rem;
+}
+
+.radio{
+
+    padding-top: 2rem;    
+}
+.additional{
+    text-align: center;
+    display: flex;
+    gap: 1.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.country-form{
+    padding-top: 2rem;
+
+}
+.selection{
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+h6{
+    padding-top: 3rem;
+    
+}
+
+.submit{
+    position: relative;
+    top:2rem;
+    background-color: #808080;
+    color: rgb(244, 236, 237);
+    border-radius: 0.25rem;
+    padding:0.5rem;
+    font-weight: 600;
+}
+
+.country-valid{
+    color: green;
+    font-size: 1rem;
+    display: none;
+    padding-top: 0.25rem;
+}
+.country-invalid{
+    color: red;
+    font-size: 1rem;
+    display: none;
+    padding-top: 0.25rem;
+}
